@@ -638,7 +638,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.95, y: 0.95}
   m_EdgeRadius: 0
 --- !u!50 &706129585
 Rigidbody2D:
@@ -673,7 +673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b628077f9296f6240ac3fbf4ea6eafe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 1
+  jumpVelocity: 1.3
   groundCheckDistance: 0.1
   groundLayerMask:
     serializedVersion: 2
@@ -1026,9 +1026,9 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.17980021
+    x: 0.20207256
     y: 0
-    width: 0.6403996
+    width: 0.5958549
     height: 1
   near clip plane: 0.1
   far clip plane: 10
